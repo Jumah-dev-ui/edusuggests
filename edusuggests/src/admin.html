@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - EduSuggests</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h1>Admin Panel</h1>
+        <form id="passwordForm">
+            <label for="password">Enter Password:</label>
+            <input type="password" id="password" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="suggestionsContainer" style="display: none;">
+            <h2>Submitted Suggestions</h2>
+            <ul id="suggestionsList"></ul>
+        </div>
+    </div>
+    <script src="js/admin.js"></script>
+</body>
+</html>
